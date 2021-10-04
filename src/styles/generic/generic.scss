@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    // color: $light-color;
+    color: $dark-color;
+}
+
+/* ---------------- Classes General -------------------- */
+.main-layout{
+  // background-color: $dark-color;
+  height: 100%;
+  padding: 0px 100px;
+  // background: rgb(255,255,255);
+  // background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(208,208,219,1) 100%);
+}
+
+@media (max-width: 700px) {
+  .main-layout{
+    padding: 10px;
+  }
+}
+
+/* ---------------- Loading ----------------------------*/
+.spinner-content {
+  background-color: $shadow-gray-color;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+.loader {
+  text-align: center;
+  width: 100%;
+}
+
+/* ----------------------- Align ----------------------------*/
+.center-align{
+  text-align: center;
+}
+.left-align{
+  text-align: left;
+}
+.right-align{
+  text-align: right;
+}
+/* ------------------------ Table ----------------------------*/
+
+.ant-table thead tr th,
+.ant-table td{
+  text-align: center;
+}
+
+/* ------------------------ Divider ----------------------------*/
+
+.ant-divider{
+  background: $gray-color;
+}
+
+.logout-button{
+  cursor: pointer;
+}
