@@ -1,0 +1,12 @@
+/* ---------------------------------------------
+  General styles of all app
+------------------------------------------------- */
+@import "./settings/colors.scss";
+@import "./settings/boxShadows.scss";
+
+@import "./components/account/login.scss";
+@import "./components/general/headerMenu.scss";
+@import "./components/user/home/home.scss";
+@import "./components/user/profileHeader/profileHeader.scss";
+
+@import "./generic/generic.scss";
